@@ -20,14 +20,14 @@ NAME=push_swap
 
 all: deps $(NAME)
 deps:
-	# $(MAKE) -C ./libft
+	$(MAKE) -C ./libft
 $(NAME): $(OBJ) $(DEPS)
 	$(CC) $(OBJ) $(DEPS) -o $(NAME)
 clean:
-	# $(MAKE) $@ -C ./libft
+	$(MAKE) $@ -C ./libft
 	@rm -rf $(OBJ)
 fclean: clean
-	# $(MAKE) $@ -C ./libft
+	$(MAKE) $@ -C ./libft
 	@rm -rf $(NAME)
 re: fclean all
-	# $(MAKE) $@ -C ./libft
+	$(MAKE) $@ -C ./libft
