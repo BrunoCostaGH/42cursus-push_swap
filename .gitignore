@@ -53,3 +53,4 @@ dkms.conf
 
 # Push Swap file
 push_swap
+.vscode/
