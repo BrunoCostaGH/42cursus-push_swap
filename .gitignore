@@ -51,6 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Push Swap file
-push_swap
 .vscode/
