@@ -6,7 +6,7 @@
 /*   By: bsilva-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 14:48:14 by bsilva-c          #+#    #+#             */
-/*   Updated: 2023/02/23 17:33:26 by bsilva-c         ###   ########.fr       */
+/*   Updated: 2023/03/15 14:55:13 by bsilva-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ void	sort_algo_2(t_list **stack_a, t_list **stack_b)
 	char	*operation;
 
 	cur_value = get_min(stack_a, stack_b);
-	step = ((0 + (get_max(stack_a, stack_b) - get_min(stack_a, stack_b))) / 5);
+	step = ((0 + (get_max(stack_a, stack_b) - get_min(stack_a, stack_b))) / 6);
 	opt_moves = check_fragments((*stack_a), cur_value, step);
 	while (opt_moves == -1 && cur_value < get_max(stack_a, stack_b))
 	{
