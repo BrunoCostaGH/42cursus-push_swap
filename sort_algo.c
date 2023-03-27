@@ -40,6 +40,9 @@ void	return_to_stack(t_list **stack_a, t_list **stack_b)
 		return_to_stack(stack_a, stack_b);
 }
 
+/*
+	Finds best best placement and moves value to b
+*/
 void	sort_algo_3(t_list **stack_a, t_list **stack_b)
 {
 	int		opt_push;
@@ -62,6 +65,9 @@ void	sort_algo_3(t_list **stack_a, t_list **stack_b)
 	run_operation(stack_a, stack_b, "pb");
 }
 
+/*
+	Finds best value to move to top within current chunk
+*/
 void	sort_algo_2(t_list **stack_a, t_list **stack_b)
 {
 	int		step;
@@ -89,6 +95,9 @@ void	sort_algo_2(t_list **stack_a, t_list **stack_b)
 	sort_algo_3(stack_a, stack_b);
 }
 
+/*
+	Initial algorithm.
+*/
 void	sort_algo(t_list **stack_a, t_list **stack_b, char **arr)
 {
 	while ((*stack_a) && (int)(long)(*stack_a)->content > \
