@@ -8,7 +8,7 @@ This project involves sorting data on a stack, with a limited set of instruction
 On a Linux Terminal execute the program with the range to sort as the numbers.
 
 ```unix
-  ./push_swap "[range-of-numbers]"
+  ./push_swap <range-of-numbers>
 ```
  i.e.
 
