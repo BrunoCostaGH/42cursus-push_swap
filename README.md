@@ -44,11 +44,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-![GitHub](https://img.shields.io/github/license/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)
-![GitHub Release Date](https://img.shields.io/github/release-date/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)
+[![GitHub](https://img.shields.io/github/license/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-push_swap/blob/master/LICENSE.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)]()
+[![GitHub issues](https://img.shields.io/github/issues/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-push_swap/issues)
+[![GitHub Release Date](https://img.shields.io/github/release-date/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-push_swap/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BrunoCostaGH/42cursus-push_swap?style=for-the-badge)](https://github.com/BrunoCostaGH/42cursus-push_swap/releases/latest)
 
 ## Features
 
